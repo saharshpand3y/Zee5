@@ -9,7 +9,7 @@ Generate 200-1000 codes for better results.
 
 
 ![Example](https://github.com/saharshpand3y/Zee5/blob/main/example/example.png)
-
+![Example](https://github.com/saharshpand3y/Zee5/blob/main/example/example1.png)
 
 ## Run Locally
 
