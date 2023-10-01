@@ -71,10 +71,9 @@ def generate_and_verify_code():
     else:
         print(f"{colorama.Fore.RED}Code: {code} - {msg}")
 
-def main():
-    n = int(sys.argv[1])
-    if n:
-        num_codes = n
+def main(): 
+    if len(sys.argv) > 1:
+        num_codes = int(sys.argv[1])
     else:
         num_codes = int(input(f"{colorama.Fore.BLUE}Enter the number of codes to generate: "))
 
