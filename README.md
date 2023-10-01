@@ -1,7 +1,8 @@
 
-# Calm Guest Pass Generator 30-Days
+# Zee5 Gift Code Generator & Checker
 
-A Simple Ruby Program to Generate Calm Guest Pass for 30-days Subscription,
+A Simple Python Program to Generate & Checker for Zee5 Subscription Coupon Codes,
+You may Change the Coupon Template in Future.
 The Given Program is Used Only for Educational & Testing Purposes,
 Developer(s) will not be responsible for any misuse of the program. 
 Generate 200-1000 codes for better results.
@@ -15,24 +16,28 @@ Generate 200-1000 codes for better results.
 Clone the project
 
 ```bash
-  git clone https://github.com/saharshpand3y/Calm-Gift-Gen.git
+  git clone https://github.com/saharshpand3y/Zee5.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Calm-Gift-Gen
+  cd Zee5
 ```
 
 Install dependencies
 
 ```bash
-  sudo gem install colorize
+  pip install -r requirements.txt
 ```
 
-Run main.rb
-
+Run main.py
+  For Linux Based OS
 ```bash
-  ruby main.rb
+  python3 main.py
+```
+  For Windows & Other OS
+```bash
+  python main.py
 ```
 
