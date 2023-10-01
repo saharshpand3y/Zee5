@@ -7,7 +7,7 @@ Developer(s) will not be responsible for any misuse of the program.
 Generate 200-1000 codes for better results.
 
 
-![Example](https://github.com/saharshpand3y/Calm-Gift-Gen/blob/main/example.jpg)
+![Example](https://github.com/saharshpand3y/Zee5/blob/main/example/example.png)
 
 
 ## Run Locally
