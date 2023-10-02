@@ -16,8 +16,7 @@ sys.stdout.write(
 ██╔══╝░░██╔══╝░░██╔══╝░░╚════██╗
 ███████╗███████╗███████╗██████╔╝
 ╚══════╝╚══════╝╚══════╝╚═════╝░
-Welcome To Zee5 Code Gen.
-Contact me on tg @Jaibholenathop\n\n\n"""
+Welcome To Zee5 Code Gen.\n\n\n"""
 )
 
 def generate_random_string(length):
