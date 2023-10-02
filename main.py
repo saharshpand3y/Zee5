@@ -5,7 +5,7 @@ from colorama import Fore, Style, init
 import sys
 import colorama
 import time
-init(autoreset=True)  # Initialize colorama
+init(autoreset=True)
 
 sys.stdout.write(
     f"""{colorama.Fore.YELLOW}
@@ -16,7 +16,8 @@ sys.stdout.write(
 ██╔══╝░░██╔══╝░░██╔══╝░░╚════██╗
 ███████╗███████╗███████╗██████╔╝
 ╚══════╝╚══════╝╚══════╝╚═════╝░
-Welcome To Zee5 Code Gen.\n\n\n"""
+Welcome To Zee5 Code Gen.
+Contact me on tg @Jaibholenathop\n\n\n"""
 )
 
 def generate_random_string(length):
@@ -24,8 +25,8 @@ def generate_random_string(length):
     return ''.join(random.choice(characters) for _ in range(length))
 
 def generate_and_verify_code():
-    code_prefix = "Z5PPAP23Q"
-    random_suffix = generate_random_string(4)
+    code_prefix = "Z5CPJA23Y"
+    random_suffix = generate_random_string(5)
     code = f"{code_prefix}{random_suffix}"
 
     url = f"https://securepayment.zee5.com/paymentGateway/coupon/verification?coupon_code={code}&translation=en&country_code=IN"
@@ -71,7 +72,7 @@ def generate_and_verify_code():
     else:
         print(f"{colorama.Fore.RED}Code: {code} - {msg}")
 
-def main(): 
+def main():
     if len(sys.argv) > 1:
         num_codes = int(sys.argv[1])
     else:
